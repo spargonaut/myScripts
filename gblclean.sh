@@ -5,6 +5,8 @@ LOCAL_BRANCHES=`git branch -v`
 
 printf "\n"
 
+git remote prune origin
+
 for LOCAL_BRANCH_INFO in $LOCAL_BRANCHES; do
 
 #  printf "local branch info: $LOCAL_BRANCH_INFO"
