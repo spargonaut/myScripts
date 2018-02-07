@@ -8,4 +8,4 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-#git stash drop stash@{$1}
+git stash drop stash@{$1}
