@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-git branch -v
+git branch -vv
