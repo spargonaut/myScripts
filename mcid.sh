@@ -5,4 +5,4 @@
 
 set -e
 
-./mvnw clean install -Pdocker
+./mvnw clean install -Pdocker "$@"
