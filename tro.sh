@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 printf "\n"
-terraform output
+terraform output "$@"
 printf "\n"
