@@ -8,16 +8,14 @@ function print_custom_command() {
   COMMAND_CONTENTS=$(cat $EXECUTABLE_LOCATION)
 
   printf "\n"
-  printf "The $COMMAND_UNDER_INSPECTION command is located at $SYMLINK_LOCATION"
+  printf "The $COMMAND_UNDER_INSPECTION command is located at $SYMLINK_LOCATION\n"
   printf "\n"
+  printf "The executable for the $COMMAND_UNDER_INSPECTION command is located at $EXECUTABLE_LOCATION\n"
   printf "\n"
-  printf "The executable for the $COMMAND_UNDER_INSPECTION command is located at $EXECUTABLE_LOCATION"
-  printf "\n"
-  printf "\n"
-  printf "It's contents are:"
-  printf -- "\n------------------------------------------------------------------------------------------\n"
-  printf "$COMMAND_CONTENTS"
-  printf -- "\n------------------------------------------------------------------------------------------\n"
+  printf "It's contents are:\n"
+  printf -- "------------------------------------------------------------------------------------------\n"
+  printf "$COMMAND_CONTENTS\n"
+  printf -- "------------------------------------------------------------------------------------------\n"
   printf "\n"
 }
 
