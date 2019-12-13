@@ -7,7 +7,7 @@
 set -e
 
 if [ $# -eq 0 ]; then
-    printf "\nNo arguments supplied.\nfirst argument is expected to be the stash message\n\n"
+    printf "\nNo arguments supplied.\nfirst argument is expected to be the npm command to run\n\n"
     exit 1
 fi
 
