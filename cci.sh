@@ -6,4 +6,4 @@
 CUSTOM_COMMANDS_DIR=$HOME/.custom_commands
 
 cd $CUSTOM_COMMANDS_DIR
-$CUSTOM_COMMANDS_DIR/initialize.sh -s ~/.myScripts -d
+$CUSTOM_COMMANDS_DIR/create_custom_commands.sh -s ~/.myScripts -d
