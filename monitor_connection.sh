@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# this script depends on the 'fast-cli' application found here: https://github.com/sindresorhus/fast-cli
+
 while true
 do
   START_DATE=`date`
